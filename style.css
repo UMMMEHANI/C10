@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    color: antiquewhite;
+}
+a{
+    color: gray;
+}
+a:hover{
+    color: burlywood;
+}
+h1+p{
+    background-color: blueviolet;
+    padding: 10px;
+}
+ul li:hover{
+    color: purple;
+}
+li:nth-child(2){
+    background-color: cadetblue;
+}
+ul li::before{
+    content: "🚀";
+}
+a::after{
+   content: "🌌";
+}
+p::first-letter{
+    font-size: 40px;
+    color: red;
+}
